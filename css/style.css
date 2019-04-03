@@ -1,0 +1,235 @@
+html
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body
+{
+    width: 1260px;
+    height: 940px;
+    margin: 0;
+    padding: 0;
+}
+.mid
+{
+    width: 1264px;
+    height: 880px;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: #EDF2C5;
+}
+.head
+{
+    padding-top: 53px;
+    display: flex;
+    align-self: flex-end;
+}
+.title
+{
+    width: 271px;
+    height: 42px;
+    padding: 0;
+    font-size: 44px;
+    font-family: "Arial Black",sans-serif;
+    color: #778A50;
+    margin-right: 468px;
+    margin-bottom: 8px;
+    line-height: 65%;
+    margin-top: 0px;
+   
+}
+.button_icon
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    align-self: flex-end;
+}
+.line
+{
+    width: 1px;
+    height: 25px;
+    background-color: #778A50;
+    margin-bottom: 17px;
+    align-self: flex-end;
+}
+.verb_login
+{
+    font-family: "Arial Black";
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    color: #778A50;
+    background-color: #EDF2C5;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    text-decoration: none;
+    align-items: center;
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+.verb_join
+{  
+    font-family: "Arial Black";
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+    color: #778A50;
+    background-color: #EDF2C5;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 17px;
+    align-content: center;
+    align-self: flex-end;
+    align-items: center;
+}
+.menu
+{
+    width: 940px;
+    height: 44px;
+    background-color: #778A50;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 317px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.menu2
+{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 60px;
+    white-space:nowrap;
+    
+}
+.front_list
+{
+    font-size: 16px;
+    font-family: "Arial Black",sans-serif;
+    color: #EDF2C5;
+    text-decoration: none;
+    margin-right: 60px;
+    text-align: center;
+    align-items: center;
+}
+.pumpkin
+{
+    width: 940px;
+    height: 448px;
+    padding-bottom: 30px;
+}
+.content
+{
+    justify-content: space-between;
+    padding-bottom: 35px;
+    display: flex;
+}
+.title2
+{
+    width: 445px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+.photos
+{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    vertical-align: middle;
+}
+.p
+{
+    margin-right: 12px;
+    padding: 0;
+}
+.title3
+{
+    width: 445px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    align-items: center;
+
+}
+.text
+{
+    width: 445px;
+    height: 140px;
+    color:#7d7d7d;
+    background-color: #F7FBDA;
+    padding: 16 16 16;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.words
+{
+    font-size: 12px;
+    font-family: 'ArialMT Regular', sans-serif;
+    color:#7d7d7d;
+    line-height: 1.33;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.line2
+{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+}
+.info
+{
+    font-size: 12px;
+    font-family: "ArialMT Regular",sans-serif;
+    line-height: 1.83;
+    padding-top: 16px;
+    margin: 0;
+}
+.footer
+{
+    width: 1264px;
+    height: 60px;
+    background-color: #778A50;
+    padding: 24px 479px 25px 479px; 
+    text-align: center;
+}
+.footer_text
+{
+    font-size: 12px;
+    font-family: "ArialMT Regular", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
